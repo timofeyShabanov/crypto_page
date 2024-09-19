@@ -1,0 +1,16 @@
+.transferBtn {
+	background-color: #366afa;
+	color: black;
+	text-align: center;
+	width: 100%;
+	border-radius: 7px;
+	margin-top: 15px;
+	padding: 10px; /* Добавьте padding для лучшего внешнего вида */
+	border: none; /* Уберите стандартную границу */
+	cursor: pointer; /* Измените курсор при наведении */
+	font-size: 16px; /* Размер текста */
+}
+
+.transferBtn:hover {
+	background-color: #2e5ecb; /* Изменение цвета при наведении */
+}

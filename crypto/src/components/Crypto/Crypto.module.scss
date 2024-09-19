@@ -1,0 +1,23 @@
+.container {
+	display: flex;
+}
+
+.img {
+	width: 20px;
+	height: 20px;
+	padding-right: 5px;
+}
+
+.name__text {
+	font-weight: 500;
+	color: rgb(105, 105, 105);
+}
+
+.quantity {
+	padding-left: 5px;
+}
+
+.quantity__sub__text {
+	font-weight: 500;
+	color: rgb(105, 105, 105);
+}

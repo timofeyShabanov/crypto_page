@@ -1,0 +1,47 @@
+.container {
+	margin-top: 35px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.text {
+	color: white;
+}
+
+.custom__input {
+	cursor: pointer;
+	padding: 10px 40px 10px 10px;
+	background-color: rgba(13, 13, 13, 0.7);
+	border-radius: 7px;
+	width: 100%;
+	border: 1px solid rgba(52, 52, 52, 0.7);
+	color: white;
+	margin: 4px 2px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+.custom__input:focus {
+	border-color: #a65db9;
+	outline: none;
+	background-color: rgba(13, 13, 13, 0.85);
+}
+
+.inputWrapper {
+	position: relative;
+}
+
+.maxText {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #366afa;
+	font-size: 14px;
+	pointer-events: none;
+}
+
+.custom__input::placeholder {
+	color: rgba(255, 255, 255, 0.5); /* Сделать placeholder полупрозрачным */
+}
